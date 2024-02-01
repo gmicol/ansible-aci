@@ -337,6 +337,14 @@ def action_rule_set_dampening_spec():
     )
 
 
+def storm_control_policy_rate_spec():
+    return dict(
+        rate=dict(type="str"),
+        burst_rate=dict(type="str"),
+        rate_type=dict(type="str", choices=["percentage", "pps"]),
+    )
+
+
 class ACIModule(object):
     def __init__(self, module):
         self.module = module

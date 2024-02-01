@@ -192,3 +192,5 @@ MATCH_TARGET_COS_MAPPING = {
 MATCH_PIM_INTERFACE_POLICY_CONTROL_STATE_MAPPING = dict(multicast_domain_boundary="border", strict_rfc_compliant="strict-rfc-compliant", passive="passive")
 
 MATCH_PIM_INTERFACE_POLICY_AUTHENTICATION_TYPE_MAPPING = dict(none="none", md5_hmac="ah-md5")
+
+MATCH_STORM_CONTROL_POLICY_TYPE_MAPPING = dict(all_types="Invalid", unicast_broadcast_multicast="Valid")
